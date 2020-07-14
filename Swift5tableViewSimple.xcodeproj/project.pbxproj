@@ -13,6 +13,7 @@
 		F068628124BD572F009F44B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F068627F24BD572F009F44B6 /* Main.storyboard */; };
 		F068628324BD5731009F44B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F068628224BD5731009F44B6 /* Assets.xcassets */; };
 		F068628624BD5731009F44B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F068628424BD5731009F44B6 /* LaunchScreen.storyboard */; };
+		F068628E24BD58BA009F44B6 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F068628D24BD58BA009F44B6 /* NextViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F068628224BD5731009F44B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F068628524BD5731009F44B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F068628724BD5731009F44B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F068628D24BD58BA009F44B6 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				F068627924BD572F009F44B6 /* AppDelegate.swift */,
 				F068627B24BD572F009F44B6 /* SceneDelegate.swift */,
 				F068627D24BD572F009F44B6 /* ViewController.swift */,
+				F068628D24BD58BA009F44B6 /* NextViewController.swift */,
 				F068627F24BD572F009F44B6 /* Main.storyboard */,
 				F068628224BD5731009F44B6 /* Assets.xcassets */,
 				F068628424BD5731009F44B6 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F068627E24BD572F009F44B6 /* ViewController.swift in Sources */,
+				F068628E24BD58BA009F44B6 /* NextViewController.swift in Sources */,
 				F068627A24BD572F009F44B6 /* AppDelegate.swift in Sources */,
 				F068627C24BD572F009F44B6 /* SceneDelegate.swift in Sources */,
 			);
@@ -294,7 +298,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.hajime.nutahara.Swift5tableViewSimple;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +316,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.hajime.nutahara.Swift5tableViewSimple;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
